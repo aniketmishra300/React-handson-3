@@ -13,6 +13,10 @@
   }
 }
 
+body{
+  background: linear-gradient(to top,rgb(201, 248, 201), rgb(252, 249, 249),white);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +30,60 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.flexBox{
+  border: black solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  left: 12%;
+  top: 5vh;
+  width: 77vw;
+  height: auto;
+  background-color: rgb(212, 227, 241);
+}
+
+.innerDiv{
+  border: black solid 2px;
+  border-radius: 15px;
+  width: 35vw;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   font-size: 1em;
+   font-weight: bold;
+   background-color:burlywood;
+}
+
+.inputs{
+  font-size: xx-large;
+}
+
+.back{
+  position: relative;
+  top: 100px;
+}
+
+input{
+  border-radius: 15px;
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  background-color: aliceblue;
+  font-size: 25px;
+}
+
+button{
+  font-size: xx-large;
+  height: 60px;
+  width: 250px;
+  border-radius: 25px;
+  background-color: rgb(173, 202, 227);
 }
 
 @keyframes App-logo-spin {
