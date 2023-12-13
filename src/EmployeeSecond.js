@@ -1,7 +1,5 @@
-import { render } from '@testing-library/react'
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
-import Employee from './Employee'
 
 const EmployeeSecond = ({value,toggle}) => {
 
